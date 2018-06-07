@@ -66,7 +66,6 @@ body{
 	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/harmonies/1350/img-bg-1350.jpg");
 	background-size: 1830px 1000px;
 	background-position: -0px -158px;
-	position: absolute;
 }
 .product-box{
 	height: 500px;
@@ -148,4 +147,102 @@ body{
 	color: #fff;
 	padding: 5px;
 	letter-spacing: 2px;
+}
+.title-box{
+	height: 300px;
+	width: 100%;
+}
+.title-box h6{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: normal;
+}
+.title-box h2{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+}
+.pro-box{
+	margin: 0 auto;
+	width: 690px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.pro-menu:nth-child(1){
+	width: 230px;
+	height: 200px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beosound-shape/green-beosound-shape-desktop.jpg");
+	background-size: 230px 230px;
+}
+.pro-menu:nth-child(2){
+	width: 230px;
+	height: 200px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/televisions/beovision-eclipse-mobile.jpg?mw=450&hash=DBD0C5F92B1BD679284B702D0B6AC116F3AA7EFB");
+	background-size: 230px 230px;
+}
+.pro-menu:nth-child(3){
+	width: 230px;
+	height: 200px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/portable-bluetooth-speakers/beoplay-p6-categories-mobile-2.jpg?mw=450&hash=8C8E0FAF78777CDCBE733347D043C64083EB14EF");
+	background-size: 230px 230px;
+}
+.pro-menu:nth-child(4){
+	width: 230px;
+	height: 200px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/headphones/beoplay-h9i-mobile.jpg?mw=450&hash=405EC5A1CF5A655A720998AB12AC75B5D6CDB210");
+	background-size: 230px 230px;
+}
+.pro-menu:nth-child(5){
+	width: 230px;
+	height: 200px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/speakers/beolab-50-mobile.jpg?mw=450&hash=8884C771C66F751431233617B6229032793D51A8");
+	background-size: 230px 230px;
+}
+.pro-menu:nth-child(6){
+	width: 230px;
+	height: 200px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/sound-systems/beosound-core-mobile.jpg?mw=450&hash=3D9049CBD1EDD5B7774213A4E1262929FE159861");
+	background-size: 230px 230px;
+}
+.story-box{
+	margin: 0 auto;
+	width: 696px;
+	height: 400px;
+	display: flex;
+	margin-bottom: 100px;
+}
+.story-menu:nth-child(1){
+	width: 170px;
+	height: 400px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/stories/design-as-a-group-effort-01.jpg");
+	background-size: 170px 170px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.story-menu:nth-child(2){
+	width: 170px;
+	height: 400px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/stories/the-krane.jpg");
+	background-size: 170px 170px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.story-menu:nth-child(3){
+	width: 350px;
+	height: 400px;
+	background-image: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/stories/harmonies/desktop/harmonies-story.jpg");
+	background-size: 350px 170px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.describe{
+	width: 95%;
+	position: absolute;
+	top: 170px;
+}
+.describe h6{
+	color: grey;
 }
